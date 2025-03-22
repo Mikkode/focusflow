@@ -10,10 +10,10 @@ export default function Pricing() {
         <AnimatedSection animation="fadeIn">
           <div className="flex flex-col items-center justify-center text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
-              Nos offres de coaching
+              Nos programmes
             </h2>
             <p className="text-muted-foreground md:text-xl max-w-[800px]">
-              Choisissez la formule qui correspond le mieux à vos besoins et à vos objectifs
+              Choisissez le programme qui correspond le mieux à vos besoins et à vos objectifs
             </p>
           </div>
         </AnimatedSection>
@@ -21,9 +21,10 @@ export default function Pricing() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <AnimatedSection animation="slideUp" delay={0.1}>
             <PricingCard
-              title="Essentiel"
+              title="Programme Essentiel"
               price="497€ / mois"
               description="Idéal pour les freelances qui débutent et veulent structurer leur activité."
+              duration="3 mois"
               features={[
                 "1 session de coaching par mois",
                 "Accès à la communauté privée",
@@ -35,9 +36,10 @@ export default function Pricing() {
           
           <AnimatedSection animation="slideUp" delay={0.2}>
             <PricingCard
-              title="Premium"
+              title="Programme Premium"
               price="997€ / mois"
               description="Pour les indépendants qui veulent accélérer leur croissance."
+              duration="6 mois"
               features={[
                 "2 sessions de coaching par mois",
                 "Accès à la communauté privée",
@@ -50,9 +52,10 @@ export default function Pricing() {
           
           <AnimatedSection animation="slideUp" delay={0.3}>
             <PricingCard
-              title="VIP"
+              title="Programme VIP"
               price="1997€ / mois"
               description="Accompagnement intensif pour une transformation rapide."
+              duration="12 mois"
               features={[
                 "4 sessions de coaching par mois",
                 "Accès à la communauté privée",
