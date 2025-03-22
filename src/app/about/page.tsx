@@ -16,7 +16,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <Image
-              src="/coach.png"
+              src="/images/coach.png"
               alt="Coach business" 
               className="rounded-lg object-cover w-full h-[400px]"
               width={1000}
@@ -63,7 +63,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <Image 
-                src="/coach2.png"
+                src="/images/coach2.png"
                 alt="Portrait du coach" 
                 className="rounded-lg object-cover w-full h-[400px]"
                 width={1000}
