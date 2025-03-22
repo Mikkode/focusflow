@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FocusFlow - Coaching pour indépendants et freelances",
-  description: "Coaching 1:1 pour indépendants et freelances qui veulent passer au niveau supérieur",
+  title: "Carrot Coach | Coaching pour freelances et entrepreneurs",
+  description: "Accompagnement personnalisé pour développer votre activité",
 };
 
 export default function RootLayout({

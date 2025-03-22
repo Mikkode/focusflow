@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t py-8 md:py-12">
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <p className="text-center text-sm text-muted-foreground md:text-left">
-          &copy; {new Date().getFullYear()} FocusFlow. Tous droits réservés.
+          © {new Date().getFullYear()} Carrot Coach. Tous droits réservés.
         </p>
         <div className="flex items-center gap-4">
           <Link 
